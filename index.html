@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Sketch</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <script src="libraries/p5.min.js"></script>
+    <script src="libraries/p5.sound.min.js"></script>
+    <script src="libraries/p5.play.js"></script>
+    <script src = "https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+    <script src = "https://www.gstatic.com/firebasejs/8.10.0/firebase-database.js"></script>
+    <script src="js/Jogo.js"></script>
+    <script src="js/Jogador.js"></script>
+    <script src="js/Form.js"></script>
+  </head>
+
+  <body>
+    <script type="module">
+      // Your web app's Firebase configuration
+      const firebaseConfig = {
+        apiKey: "AIzaSyCymAauxA5-SqyJc1Wo7KKCO_oLiHg2Jn0",
+        authDomain: "aula-38---camera-e-tela.firebaseapp.com",
+        databaseURL: "https://aula-38---camera-e-tela-default-rtdb.firebaseio.com",
+        projectId: "aula-38---camera-e-tela",
+        storageBucket: "aula-38---camera-e-tela.appspot.com",
+        messagingSenderId: "881020626169",
+        appId: "1:881020626169:web:a84b922d291d286ddeee28"
+      };
+
+      // Initialize Firebase
+      const app = firebase.initializeApp(firebaseConfig);
+    </script>
+    <script src="sketch.js"></script>
+  </body>
+</html>
