@@ -1,0 +1,22 @@
+{
+  "estadoJogo" : 0,
+  "jogadores" : {
+    "jogador1" : {
+      "distancia" : 0,
+      "nome" : "Nome"
+    },
+    "jogador2" : {
+      "distancia" : 0,
+      "nome" : "Nome"
+    },
+    "jogador3" : {
+      "distancia" : 0,
+      "nome" : "Nome"
+    },
+    "jogador4" : {
+      "distancia" : 8250,
+      "nome" : "Nome"
+    }
+  },
+  "numJogadores" : 0
+}
